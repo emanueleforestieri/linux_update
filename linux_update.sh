@@ -12,7 +12,7 @@
     }
     help() {
         echo "
-Uso: ./linux_update [opzioni]     
+Uso: ./linux_update.sh [opzioni]     
 
 Opzioni:
         -h, --help          Mostra questa schermata ed esce
@@ -52,6 +52,6 @@ Opzioni:
             echo "$BLUE[+] Aggiornamenti completati!"
         fi
     else
-        echo -e "$RED[!] linux_update deve essere eseguito come root!"
+        echo -e "$RED[!] linux_update.sh deve essere eseguito come root!"
     fi
     exit 0
