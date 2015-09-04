@@ -55,4 +55,3 @@ Opzioni:
         echo -e "$RED[!] linux_update deve essere eseguito come root!"
     fi
     exit 0
-
