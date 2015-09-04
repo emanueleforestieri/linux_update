@@ -26,12 +26,12 @@ Opzioni:
     upgrade() {
         if [ "$1" = -u -o "$1" = --upgrade -o "$2" = -u -o "$2" = --upgrade ]; then
 		    apt-get -y upgrade
-	    fi    
+	fi    
     }
     dist_upgrade() {
     	if [ "$1" = -d -o "$1" = --dist-upgrade -o "$2" = -d -o "$2" = --dist-upgrade ]; then
 		    apt-get -y dist-upgrade
-	    fi    
+	fi    
     }
     if [ `id -u` -eq 0 ]; then
         ARGC="$#"
