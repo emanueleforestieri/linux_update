@@ -1,3 +1,6 @@
+# 0.3.1 [05/09/2015]
+ - Se c'è un parametro sbagliato va all'help, anche se gli altri sono giusti
+
 # 0.3 [05/09/2015]
  - Migliorato codice
  - Aggiunti commenti

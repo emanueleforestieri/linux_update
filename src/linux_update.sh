@@ -50,9 +50,11 @@ control () #controlla argv
 {
 	for arg
 	do
-		if [ "$arg" = "-h" -o "$arg" = "--help" ]; then export h="TRUE"; fi
-		if [ "$arg" = "-u" -o "$arg" = "--upgrade" ]; then export u="TRUE"; fi
-		if [ "$arg" = "-d" -o "$arg" = "--dist-upgrade" ]; then export d="TRUE"; fi
+		if [ "$arg" = "-h" -o "$arg" = "--help" ]; then export h="TRUE";
+		elif [ "$arg" = "-u" -o "$arg" = "--upgrade" ]; then export u="TRUE"; 
+		elif [ "$arg" = "-d" -o "$arg" = "--dist-upgrade" ]; then export d="TRUE";
+		else help
+		fi
 	    
 	done
 
