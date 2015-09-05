@@ -2,8 +2,6 @@
  - Se c'è un parametro sbagliato va all'help, anche se gli altri sono giusti
 
 # 0.3 [05/09/2015]
- - Ottimizzato il codice
- - Migliorata la grafica
  - Migliorato codice
  - Aggiunti commenti
  - Risolti bug 
