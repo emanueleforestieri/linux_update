@@ -1,4 +1,6 @@
-# linux_update
+# linux_update #
 
- - Leggere il file CHANGELOG.md
- - Leggere il file INSTALL.md
+Script per tenere aggiornata una distro basata su debian (scorciatoie per apt-get)  
+
+Aggiornamenti: [GitHub] (https://github.com/emanueleforestieri/linux_update/)  
+
