@@ -54,10 +54,8 @@ control () #controlla argv
 		elif [ "$arg" = "-u" -o "$arg" = "--upgrade" ]; then export u="TRUE"; 
 		elif [ "$arg" = "-d" -o "$arg" = "--dist-upgrade" ]; then export d="TRUE";
 		else help
-		fi
-	    
+		fi   
 	done
-
 }
 
 help()
