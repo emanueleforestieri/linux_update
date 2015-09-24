@@ -4,5 +4,4 @@ Script per tenere aggiornata una distro basata su debian (scorciatoie per apt-ge
 
 Aggiornamenti: [GitHub] (https://github.com/emanueleforestieri/linux_update/)  
 
-Donazioni: paypal.me/emanueleforestieri
 
