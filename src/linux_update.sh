@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #  
 #  Copyright 2015 Emanuele Forestieri <forestieriemanuele@gmail.com>
 #  Copyright 2015 Matteo Alessio Carrara <sw.matteoac@gmail.com>
