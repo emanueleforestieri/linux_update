@@ -1,7 +1,7 @@
-# linux_update 
+# linux_update
 
-Script per tenere aggiornata una distro basata su debian (scorciatoie per apt-get)  
+script for update for debian based distro (shortcuts for apt -get)
 
-Aggiornamenti: [GitHub] (https://github.com/emanueleforestieri/linux_update/)  
+Updates : [GitHub] (https://github.com/emanueleforestieri/linux_update/)
 
-Donazioni: [Paypal] (https://www.paypal.me/emanueleforestieri)
+Donations: [Paypal] (https://www.paypal.me/emanueleforestieri)
