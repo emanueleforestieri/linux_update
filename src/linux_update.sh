@@ -19,14 +19,14 @@
 #  MA 02110-1301, USA.
 #
 
-#colori del testo
+#text colors
 export BLUE='\033[1;94m'
 export GREEN='\033[1;92m' 
 export RED='\e[0;31m'
 export NORMAL='\033[1;00m'
 
 
-err_echo () #echo su stderr
+err_echo () #echo on stderr
 {
 	>&2 echo -e "$*"
 } 
@@ -46,7 +46,7 @@ ok ()
 	err_echo $BLUE"[+] "$*$NORMAL
 }
 
-control () #controlla argv
+control () #check argv
 {
 	for arg
 	do
@@ -77,7 +77,7 @@ then
 else
 	control $*
 	if [ -n "$h" ] || [ -z "$u" ] && [ -z "$d" ]; then help; fi
-	if [ `id -u` -eq 0 ] #se è eseguito come root
+	if [ `id -u` -eq 0 ] #if it is run as root
 	then
 		inf "Aggiornamenti in corso..."
 		apt-get update
