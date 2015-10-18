@@ -60,8 +60,8 @@ control () #check argv
 
 help()
 {
-	err_echo "Uso: "$0" [opzioni]\n" 
-	err_echo "Opzioni:"
+	err_echo "Uso: "$0" [options]\n" 
+	err_echo "Options:"
 	err_echo "-h, --help          Show this screen and exit"
 	err_echo "-u, --upgrade       Upgrades packages"
 	err_echo "-d, --dist-upgrade  Upgrade your operating system\n"
