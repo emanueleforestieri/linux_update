@@ -1,16 +1,17 @@
+
 # 0.3.1 [05/09/2015]
- - Se c'è un parametro sbagliato va all'help, anche se gli altri sono giusti
+- If a parameter is wrong to go to the aid , even if others are right
 
 # 0.3 [05/09/2015]
- - Migliorato codice
- - Aggiunti commenti
- - Risolti bug 
+- Improved code
+- Comment added
+- Fixed bug
 
 # 0.2 [04/09/2015]
- - Migliorata la grafica
- - Aggiunti parametri in stdin
- - Aggiunti controlli su stdin
- - Migliorata la gestione degli aggiornamenti
- 
-# 0.1 [22/06/2015]
- - Release iniziale
+- Improved graphics
+- Added parameters to stdin
+- stdin added controls
+- Improved the update management
+
+# 0.1 [06/22/2015]
+ - Initial Release
